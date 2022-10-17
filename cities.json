@@ -1,0 +1,34 @@
+{
+    "cities":[
+       {
+          "id":1,
+          "name":"Sofia",
+          "children":[
+             {
+                "id":2,
+                "name":"Burgas"
+             },
+             {
+                "id":3,
+                "name":"Sliven"
+             }
+          ]
+       },
+       {
+          "id":4,
+          "name":"Plovdiv",
+          "children":[
+             {
+                "id":5,
+                "name":"Varna",
+                "children":[
+                   {
+                      "id":3,
+                      "name":"Haskovo"
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+}
